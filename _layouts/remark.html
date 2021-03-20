@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        font-family: 'Georgia', serif;
+        font-size: 16pt;
+        color: #333;
+
+      }
+      h1, h2, h3 {
+        font-family: 'Verdana', sans-serif;
+      }
+      .remark-slide-content h1 { font-size: 2em; }
+      .remark-slide-content h2 { font-size: 1.6em; }
+      .remark-slide-content h3 { font-size: 1em; }
+        .right {
+          float: right;
+          margin-left: 1em;
+        }
+        .left {
+          float: left;
+          margin-right: 3em;
+        }
+        li {
+          padding-bottom: 0.5em;
+        }
+
+        ol li li {
+          list-style-type: lower-alpha;
+        }
+
+        ol li li li {
+          list-style-type: lower-roman;
+        }
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          padding:1em;
+          max-width: 100%;
+        }
+
+        .small-text {
+          font-size:14pt;
+        }
+        .smaller-text {
+          font-size: 12pt;
+        }
+        .full-width *{
+          width:100%;
+        }
+
+        .remark-slide-content {
+          background: -moz-linear-gradient(90deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,191,205,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(90deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(90deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(90deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* ie10+ */
+background: linear-gradient(0deg, rgba(255,191,205,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFBFCD',GradientType=0 ); /* ie6-9 */
+        }
+      </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+# {{ page.title }}
+{% if page.description %}## {{ page.description }}{% endif %}
+---
+{{ content }}
+</textarea>
+
+    <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+  </body>
+</html>
