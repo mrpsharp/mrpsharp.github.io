@@ -10,7 +10,6 @@ author:
 
 
 # Dependencies
-markdown:           kramdown
 #Syntax Highlighter
 #highlighter:        pygments
 port: 8888

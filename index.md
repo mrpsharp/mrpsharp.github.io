@@ -4,8 +4,8 @@ title: Home
 go: true
 ---
 ## Javascript examples
-* [Daylight Graph](/daylight)
-* [Motion Model](/motion-model)
-* [Bohr Atom](/bohr)
-* [Binding Energy Curve](/binding-energy)
-* [Moon in the morning (Pamplona)](/pamplona-moon)
+* [Daylight Graph]({% link daylight.html})
+* [Motion Model]({% link motion-model.html}
+* [Bohr Atom]({% link bohr.html})
+* [Binding Energy Curve]({% link binding-energy.html})
+* [Moon in the morning (Pamplona)]({% link pamplona-moon.html})
