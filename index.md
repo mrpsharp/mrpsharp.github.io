@@ -1,6 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
+title: Home
+go: true
 ---
+## Javascript examples
+* [Daylight Graph](/daylight)
+* [Motion Model](/motion-model)
+* [Bohr Atom](/bohr)
+* [Binding Energy Curve](/binding-energy)
+* [Moon in the morning (Pamplona)](/pamplona-moon)
