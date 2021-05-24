@@ -1,5 +1,6 @@
 var goCodes = {
-  'whw': 'https://drive.google.com/open?id=1vJXtP076R_a2DFcuIKCIiqaZwp5P6K5d&usp=sharing'
+  'whw': 'https://drive.google.com/open?id=1vJXtP076R_a2DFcuIKCIiqaZwp5P6K5d&usp=sharing';
+  '5B': 'https://forms.gle/1usxbhg9ED7bdssU7'
 };
 
 function go(shortCode) {
