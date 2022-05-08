@@ -22,7 +22,7 @@ permalink:          pretty
 # destination:        ./static
 
 baseurl:            ""
-url:                http://www.mrpsharp.org
+url:                https://mrpsharp.github.io
 
 # exclude this stuff when building the static site
 exclude:            [
