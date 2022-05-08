@@ -1,4 +1,0 @@
-name: Mr P Sharp
-port: 8888
-markdown: kramdown
-exclude: ["*.aux", "*.log", "*.toc", "*.out", "*.tex"]
